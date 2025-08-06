@@ -1,0 +1,168 @@
+
+body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.aero-page {
+    background: rgba(0,0,0,0.25);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+      -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+      -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+      -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+    backdrop-filter: blur(4px);
+}
+
+.aeroborder {
+    border: 6px solid #d9e3f0;
+    box-shadow: 0 0 16px black;
+}
+
+.aero-window {
+    border:1px solid black;
+    border-radius:8px;
+    box-shadow: 0 0 16px black;
+    backdrop-filter: blur(4px);
+    margin: 0 15px 15px 15px;
+}
+
+.aero-window-content {
+    background: #fff;
+    margin: 5px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.center {
+    object-fit: cover;
+    position: relative;
+    text-align: center;
+}
+
+.m-5 {
+    margin: 5px;
+}
+
+.mt-5 {
+    margin-top: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mr-5 {
+    margin-right: 5px;
+}
+
+.ml-5 {
+    margin-left: 5px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.prl-5 {
+    padding: 0 5px;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-blue {
+    background: #0032db;
+    box-shadow: 0 2px 6px #0689e4, inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px #0689e4;
+      -o-box-shadow: 0 2px 6px #0689e4, inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px #0689e4;
+      -webkit-box-shadow: 0 2px 6px #0689e4, inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px #0689e4;
+      -moz-box-shadow: 0 2px 6px #0689e4, inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px #0689e4;
+}
+
+.bg-green {
+    background: #71AB23;
+    box-shadow: 0 2px 6px #0689e4, inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px #0689e4;
+      -o-box-shadow: 0 2px 6px #0689e4, inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px #0689e4;
+      -webkit-box-shadow: 0 2px 6px #0689e4, inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px #0689e4;
+      -moz-box-shadow: 0 2px 6px #0689e4, inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px #0689e4;
+}
+
+.radius-small {
+    border-radius: 5px;
+}
+
+.right {
+  float: right;
+  align-content: end;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.pfp {
+    width: 230px;
+    border-radius: 10px;
+    object-fit: cover;
+    position: relative;
+    top: 15px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.just-space-between {
+    justify-content: space-between;
+}
+
+.icon-small {
+    width: 30px;
+}
+
+.icon-mid {
+    width: 40px;
+}
+
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+.source-code-button {
+    color: #fff;
+    border: none;
+    text-decoration: none;
+}
